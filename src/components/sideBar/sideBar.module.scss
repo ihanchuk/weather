@@ -1,0 +1,35 @@
+.menu{
+    border: 1px solid white;
+    background: white;
+    padding-left: 20px;
+
+    h3 {
+        font-size:24px;
+    }
+
+    ul {
+        padding: 0;
+        li {
+            list-style-type: none;
+            margin-bottom: 5px;
+            margin: 0 0 10px 2px;
+        }
+        a {
+            color: #346364;
+            text-decoration: none; 
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .menu{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .menu{
+        background: white;
+        min-height: 90dvh;;
+    }
+}
