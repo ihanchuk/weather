@@ -21,15 +21,43 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .menu{
+        padding-left: 30px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                padding: 5px;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 600px) {
     .menu{
         padding-left: 30px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                flex: 1 1 0px;
+            }
+        }
     }
 }
 
 @media screen and (min-width: 900px) {
     .menu{
         background: white;
-        min-height: 90dvh;;
+        min-height: 90dvh;
+
+        ul {
+            display: block;
+        }
     }
 }
