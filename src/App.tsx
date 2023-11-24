@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Header } from "./components/header/header";
 import { SideBar } from "./components/sideBar";
@@ -9,14 +9,14 @@ import styles from "./app.module.scss";
 function App() {
   return (
     <div className={styles.App}>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Grid container spacing={2}>
           <SideBar />
           <RouterOutlet />
         </Grid>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
