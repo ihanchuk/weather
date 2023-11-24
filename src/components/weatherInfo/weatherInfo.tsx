@@ -38,11 +38,6 @@ export const WeatherInfo: FC<IWeatherState> = ({
         <FontAwesomeIcon icon={faWind} {...iconProps} /> <span>Wind</span>
         <b>{wind_degree}</b>
       </li>
-      {/* <li>
-      <FontAwesomeIcon icon={faCloudSunRain} {...p} />
-      <span>Cloud</span>
-      <i>{weatherState.}</i>
-    </li> */}
       <li>
         <FontAwesomeIcon icon={faCompressAlt} {...iconProps} />
         <span>Pressure</span>
