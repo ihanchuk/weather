@@ -17,6 +17,24 @@ export const SideBar = () => {
         <h3>All cities</h3>
         <ul>
           <li>
+            <Link to="/city?name=London">London</Link>
+          </li>
+          <li>
+            <Link to="/city?name=Kyiv">Kyiv</Link>
+          </li>
+          <li>
+            <Link to="/city?name=Tel Aviv">Tel Aviv</Link>
+          </li>
+          <li>
+            <Link to="/city?name=Madrid">Madrid</Link>
+          </li>
+          <li>
+            <Link to="/city?name=Jerusalem">Jerusalem</Link>
+          </li>
+          <li>
+            <Link to="/city?name=Burgas">Burgas</Link>
+          </li>
+          <li>
             <Link to="/fake">Fake Page</Link>
           </li>
         </ul>
