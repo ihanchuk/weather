@@ -1,0 +1,1 @@
+export { WeatherHeading } from "./heading";
